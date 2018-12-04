@@ -91,7 +91,7 @@ s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "testFiletest/*"
+s.source_files  = "testFile", "testFile/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
