@@ -80,7 +80,7 @@ s.platform     = :ios, "9.0"
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "0.0.1" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
