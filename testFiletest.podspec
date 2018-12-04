@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 #  summary should be tweet-length, and the description more in depth.
 #
 
-s.name         = "testFile"
+s.name         = "testFiletest"
 s.version      = "0.0.1"
 s.summary      = "A powerful paging view with tab bar. "
 
@@ -91,7 +91,7 @@ s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "testFile", "testFile/*.{h,m}"
+s.source_files  = "testFiletest", "testFiletest/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
