@@ -15,6 +15,7 @@
 		B55A7DD121B6771A00ABB713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A7DD021B6771A00ABB713 /* main.m */; };
 		B55A7DDB21B6771A00ABB713 /* createPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A7DDA21B6771A00ABB713 /* createPodTests.m */; };
 		B55A7DE621B6771A00ABB713 /* createPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A7DE521B6771A00ABB713 /* createPodUITests.m */; };
+		B55A7DF621B6782300ABB713 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A7DF521B6782300ABB713 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B55A7DE121B6771A00ABB713 /* createPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = createPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55A7DE521B6771A00ABB713 /* createPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = createPodUITests.m; sourceTree = "<group>"; };
 		B55A7DE721B6771A00ABB713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55A7DF421B6782300ABB713 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B55A7DF521B6782300ABB713 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B55A7DB521B6771900ABB713 = {
 			isa = PBXGroup;
 			children = (
+				B55A7DF321B6782300ABB713 /* testFile */,
 				B55A7DC021B6771900ABB713 /* createPod */,
 				B55A7DD921B6771A00ABB713 /* createPodTests */,
 				B55A7DE421B6771A00ABB713 /* createPodUITests */,
@@ -130,6 +134,15 @@
 				B55A7DE721B6771A00ABB713 /* Info.plist */,
 			);
 			path = createPodUITests;
+			sourceTree = "<group>";
+		};
+		B55A7DF321B6782300ABB713 /* testFile */ = {
+			isa = PBXGroup;
+			children = (
+				B55A7DF421B6782300ABB713 /* test.h */,
+				B55A7DF521B6782300ABB713 /* test.m */,
+			);
+			path = testFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55A7DC621B6771900ABB713 /* ViewController.m in Sources */,
+				B55A7DF621B6782300ABB713 /* test.m in Sources */,
 				B55A7DD121B6771A00ABB713 /* main.m in Sources */,
 				B55A7DC321B6771900ABB713 /* AppDelegate.m in Sources */,
 			);
