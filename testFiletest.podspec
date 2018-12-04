@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "testFiletest"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "A powerful paging view with tab bar. "
 
 # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ s.platform     = :ios, "9.0"
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/leozhuo/createPod.git", :tag => "0.0.2" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
