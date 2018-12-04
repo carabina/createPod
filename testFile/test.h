@@ -11,7 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface test : NSObject
-
+/** name*/
+@property (nonatomic, copy)NSString *name;
+/** age*/
+@property (nonatomic, copy)NSString *age;
 @end
 
 NS_ASSUME_NONNULL_END
